@@ -258,16 +258,18 @@ span {
 
 .tech-stack {
   margin-bottom: 3.5rem;
-  color: #c7c5c9;
+  color: #8a8181;
   font-size: 1.5rem;
   font-weight: 400;
+  margin-top: 0px;
 }
 
 .projectDesc {
-  font-size: 2rem;
-  color: #4c4949;
-  text-align: center;
-  line-height: 40px;
+  font-size: 1.7rem;
+  color: #a69fac;
+  text-align: start;
+  line-height: 25px;
+  margin-top: -20px;
 }
 
 .projectButton {
@@ -350,6 +352,12 @@ span {
   flex-direction: column;
   justify-content: center;
   padding: 3rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.04);
 }
 
 .container-heading-icons {
@@ -358,6 +366,7 @@ span {
   justify-content: space-between;
   margin-bottom: 2rem;
   gap: 2rem;
+  cursor: pointer;
 }
 
 .container-heading-icons a {
